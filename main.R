@@ -13,4 +13,12 @@ map_data <- merge(
   metadata
 )
 
-jsonlite::write_json(map_data, "map_data.json")
+jsonlite::write_json(
+  list(
+    results = nrow(map_data),
+    data = map_data
+  ),
+  "map_data.json",
+  pretty = TRUE,
+  auto_unbox = TRUE
+)
