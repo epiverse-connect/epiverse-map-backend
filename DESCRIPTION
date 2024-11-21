@@ -16,5 +16,5 @@ Imports:
     stringr
 RoxygenNote: 7.3.2
 Config/Needs/data: 
-    epiverse-connect/epiverse.scraper,
+    epiverse-connect/epiverse-scraper,
     jsonlite
