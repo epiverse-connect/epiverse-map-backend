@@ -18,7 +18,7 @@ jsonlite::write_json(
     results = nrow(map_data),
     data = map_data
   ),
-  "map_data.json",
+  "inst/extdata/map_data.json",
   pretty = TRUE,
   auto_unbox = TRUE
 )
