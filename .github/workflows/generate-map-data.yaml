@@ -22,6 +22,8 @@ jobs:
           needs: data
 
       - name: Update data
+        env:
+          EMBEDDINGS_LOCATION: ${{ secrets.EMBEDDINGS_LOCATION }}
         run: |
           source("data-raw/json_map.R")
         shell: Rscript {0}
