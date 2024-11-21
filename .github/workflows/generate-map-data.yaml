@@ -19,9 +19,10 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: local::.
-          needs: data
-          upgrade: "TRUE"
+          extra-packages: |
+            local::.
+            epiverse-connect/epiverse-scraper
+            jsonlite
 
       - name: Update data
         env:
