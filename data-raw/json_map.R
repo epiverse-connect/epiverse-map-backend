@@ -1,3 +1,5 @@
+library(epiversemapbackend)
+
 embeddings_location <- Sys.getenv("EMBEDDINGS_LOCATION")
 
 doc_lvl_embeddings <- parse_embeddings_file(embeddings_location)
