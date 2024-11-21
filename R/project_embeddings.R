@@ -1,3 +1,4 @@
+#' @export
 project_embeddings <- function(embeddings) {
 
   projed_embs_pca <- prcomp(embeddings)
