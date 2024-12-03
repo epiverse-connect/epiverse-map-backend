@@ -1,5 +1,5 @@
 {
-  "results": 92,
+  "results": 86,
   "data": [
     {
       "package": "adegenet",
@@ -43,13 +43,6 @@
       "coord2": -0.0893,
       "website": null,
       "source": "https://github.com/qingyuanzhao/bets.covid19"
-    },
-    {
-      "package": "bkmr",
-      "coord1": 0.3898,
-      "coord2": -0.9773,
-      "website": null,
-      "source": "https://github.com/jenfb/bkmr"
     },
     {
       "package": "cfr",
@@ -247,13 +240,6 @@
       "source": "https://github.com/cran/endtoend"
     },
     {
-      "package": "EnvStats",
-      "coord1": -0.0194,
-      "coord2": -1.0234,
-      "website": "https://alexkowa.github.io/EnvStats/",
-      "source": "https://github.com/alexkowa/EnvStats"
-    },
-    {
       "package": "Epi",
       "coord1": 0.0415,
       "coord2": -0.5884,
@@ -411,13 +397,6 @@
       "source": "https://github.com/epiverse-trace/finalsize"
     },
     {
-      "package": "HIMA",
-      "coord1": -0.1401,
-      "coord2": -0.9539,
-      "website": null,
-      "source": "https://github.com/YinanZheng/HIMA"
-    },
-    {
       "package": "incidence",
       "coord1": 0.3466,
       "coord2": 0.0518,
@@ -454,13 +433,6 @@
       "source": "https://github.com/malaria-atlas-project/malariaAtlas"
     },
     {
-      "package": "mediation",
-      "coord1": -0.6186,
-      "coord2": -0.7635,
-      "website": "https://imai.princeton.edu/projects/mechanisms.html",
-      "source": "https://github.com/kosukeimai/mediation"
-    },
-    {
       "package": "mem",
       "coord1": 0.7677,
       "coord2": -0.1945,
@@ -475,13 +447,6 @@
       "source": "https://github.com/lozalojo/memapp"
     },
     {
-      "package": "mma",
-      "coord1": -0.5611,
-      "coord2": -0.3152,
-      "website": "https://www.r-project.org",
-      "source": "https://github.com/cran/mma"
-    },
-    {
       "package": "modelSSE",
       "coord1": -0.1023,
       "coord2": -1.1358,
@@ -494,13 +459,6 @@
       "coord2": -0.3394,
       "website": null,
       "source": "https://github.com/hputter/mstate"
-    },
-    {
-      "package": "NADA",
-      "coord1": 0.0919,
-      "coord2": -0.123,
-      "website": null,
-      "source": "https://github.com/cran/NADA"
     },
     {
       "package": "nbTransmission",
